@@ -8,3 +8,9 @@ webpack(config) {
 
     return config;
   }
+
+// Document Next js
+https://nextjs.org/docs/advanced-features/custom-document
+
+// Matrials Icons
+https://developers.google.com/fonts/docs/material_icons
