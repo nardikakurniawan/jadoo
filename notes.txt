@@ -14,3 +14,6 @@ https://nextjs.org/docs/advanced-features/custom-document
 
 // Matrials Icons
 https://developers.google.com/fonts/docs/material_icons
+
+//Image Next js
+https://nextjs.org/docs/api-reference/next/image#required-props
