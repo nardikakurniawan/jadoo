@@ -3,8 +3,9 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Header from "components/Header";
-import DecoreIntersect from "images/decore-intersect-1.svg";
-import DecoreTextUnderline from "images/text-decore-hero.svg";
+import DecorIntersect from "images/decor-intersect-1.svg";
+import DecorTextUnderline from "images/text-decor-hero.svg";
+import DecorPlus1 from "images/decor-plus-style-1.svg";
 
 export default function Home() {
   return (
@@ -21,7 +22,7 @@ export default function Home() {
 
       <section className="relative mb-28">
         <span className="absolute w-5/12 h-screen right-0 top-0 bottom-0 ">
-          <DecoreIntersect className="fill-accent-4" />
+          <DecorIntersect className="fill-accent-4" />
         </span>
         <div className="w-96 h-96 border-2 bg-accent-3/50 rounded-full blur-3xl absolute -left-80 -top-10"></div>
         <div className="max-w-7xl mx-auto px-4">
@@ -35,7 +36,7 @@ export default function Home() {
                 <span className="relative">
                   enjoy{" "}
                   <span className="absolute left-0 top-full -mt-8 -ml-4 -z-10">
-                    <DecoreTextUnderline className="w-[285px] h-[12px] fill-accent-2" />
+                    <DecorTextUnderline className="w-[285px] h-[12px] fill-accent-2" />
                   </span>
                 </span>
                 and live a new and full life
@@ -54,7 +55,7 @@ export default function Home() {
                 </Link>
                 <button className="flex items-center">
                   <span className="mr-6 bg-accent-2 text-white inline-flex items-center justify-center px-4 py-4 rounded-full shadow-accent-2/30 shadow-[0_15px_30px]">
-                    <span class="material-icons">play_arrow</span>
+                    <span className="material-icons">play_arrow</span>
                   </span>
                   <span className="text-gray-500">Play demo</span>
                 </button>
@@ -86,6 +87,108 @@ export default function Home() {
                   height="100%"
                   src="/images/hero-traveller.png"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-32">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="absolute w-36 h-36 lg:-right-10 -top-10">
+            <DecorPlus1 className="decor-plus-style-1" />
+          </div>
+
+          <div className="text-center flex flex-col mb-16">
+            <h3 className="uppercase text-lg mb-2 text-gray-500">Category</h3>
+            <h3 className="text-5xl text-gray-900 leading-snug font-serif">
+              We Offer Best Services
+            </h3>
+          </div>
+
+          <div className="flex text-gray-900">
+            <div className="w-3/12 px-8">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-6 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-xl w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-11">
+                    <Image
+                      layout="fixed"
+                      width={60}
+                      height={60}
+                      src="/images/illustration-radar.png"
+                    />
+                  </div>
+                  <div className="absolute bottom-0 left-5 transform -translate-x-1/2 bg-accent-4 rounded-tl-lg rounded-tr-md rounded-bl-md rounded-br-2xl w-12 h-12"></div>
+                </div>
+                <h4 className="text-xl mb-3">Calculated Weather</h4>
+                <h5 className="px-8 mb-8">
+                  Built Wicket longer admire do barton vanity it self do in it.
+                </h5>
+              </div>
+            </div>
+
+            <div className="w-3/12 px-8">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-6 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-xl w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="z-10 absolute transform -translate-x-1/2">
+                    <Image
+                      layout="fixed"
+                      width={146}
+                      height={133}
+                      src="/images/plane.png"
+                    />
+                  </div>
+                  <div className="absolute bottom-8 -right-9 transform -translate-x-1/2 bg-accent-4 rounded-tl-md rounded-tr-md rounded-bl-2xl rounded-br-lg w-12 h-12"></div>
+                </div>
+                <h4 className="text-xl mb-3">Best Flights</h4>
+                <h5 className="px-8 mb-8">
+                  Engrossed listening. Park gate sell they west hard for the.
+                </h5>
+              </div>
+            </div>
+
+            <div className="w-3/12 px-8">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-6 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-xl w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-8 top-2">
+                    <Image
+                      layout="fixed"
+                      width={40}
+                      height={69}
+                      src="/images/illustration-mic.png"
+                    />
+                  </div>
+                  <div className="absolute top-10 left-3 transform -translate-x-1/2 bg-accent-4 rounded-tl-md rounded-tr-2xl rounded-bl-lg rounded-br-md w-12 h-12"></div>
+                </div>
+                <h4 className="text-xl mb-3">Local Events</h4>
+                <h5 className="px-8 mb-8">
+                  Barton vanity itself do in it. Preferd to men it engrossed
+                  listening.
+                </h5>
+              </div>
+            </div>
+
+            <div className="w-3/12 px-8">
+              <div className="relative transition-all duration-300 group shadow-none hover:shadow-great flex flex-col items-center justify-center text-center bg-white rounded-[36px]">
+                <div className="absolute transition-all duration-300 opacity-0 group-hover:opacity-100 -z-10 bottom-12 group-hover:bottom-6 left-12 group-hover:left-6 transform -translate-x-1/2 translate-y-1/2 bg-accent-2 rounded-tl-3xl rounded-br-xl w-28 h-28"></div>
+                <div className="relative mb-6 inline-flex h-28">
+                  <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-10 top-3">
+                    <Image
+                      layout="fixed"
+                      width={50}
+                      height={50}
+                      src="/images/illustration-gear.png"
+                    />
+                  </div>
+                  <div className="absolute bottom-0 left-5 transform -translate-x-1/2 bg-accent-4 rounded-tl-md rounded-tr-lg rounded-bl-2xl rounded-br-md w-12 h-12"></div>
+                </div>
+                <h4 className="text-xl mb-3">Customization</h4>
+                <h5 className="px-8 mb-8">
+                  We deliver outsourced aviation services for military customers
+                </h5>
               </div>
             </div>
           </div>
