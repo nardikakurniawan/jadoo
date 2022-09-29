@@ -417,6 +417,58 @@ export default function Home() {
       </section>
 
       <Testimonials />
+
+      <section className="mb-28">
+        <div className="max-w-7xl mx-auto">
+          <div className="flex">
+            <div className="w-1/5 px-4">
+              <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
+                <Image
+                  className="object-none"
+                  layout="fill"
+                  src="/images/client-1.png"
+                />
+              </div>
+            </div>
+            <div className="w-1/5 px-4">
+              <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
+                <Image
+                  className="object-none"
+                  layout="fill"
+                  src="/images/client-2.png"
+                />
+              </div>
+            </div>
+            <div className="w-1/5 px-4">
+              <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
+                <Image
+                  className="object-none"
+                  layout="fill"
+                  src="/images/client-3.png"
+                />
+              </div>
+            </div>
+            <div className="w-1/5 px-4">
+              <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
+                <Image
+                  className="object-none"
+                  layout="fill"
+                  src="/images/client-4.png"
+                />
+              </div>
+            </div>
+            <div className="w-1/5 px-4">
+              <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
+                <Image
+                  className="object-none"
+                  layout="fill"
+                  src="/images/client-5.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
