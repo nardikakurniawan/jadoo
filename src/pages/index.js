@@ -8,6 +8,7 @@ import DecorIntersect from "images/decor-intersect-1.svg";
 import DecorTextUnderline from "images/text-decor-hero.svg";
 import DecorPlus1 from "images/decor-plus-style-1.svg";
 import DecorSwirl1 from "images/decor-swirl-style-1.svg";
+import DecorEllips1 from "images/decor-ellips-style-1.svg";
 
 export default function Home() {
   return (
@@ -464,6 +465,53 @@ export default function Home() {
                   layout="fill"
                   src="/images/client-5.png"
                 />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-32">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="absolute w-36 h-36 lg:-right-20 -bottom-10 -z-10 transform rotate-90 translate-y-2">
+            <DecorPlus1 className="decor-plus-style-1" />
+          </div>
+          <div className="w-full relative bg-white">
+            <div className="relative">
+              <div className="absolute flex justify-center items-center text-white rounded-full transform -translate-y-1/2 translate-x-1/2 z-30 top-0 right-0 w-16 h-16 bg-gradient-to-b from-accent-6/60 to-accent-6">
+                <span className="material-icons">near_me</span>
+              </div>
+
+              <div className="bg-accent-3/20 overflow-hidden rounded-tl-[120px]  rounded-3xl relative z-20 pt-20 pb-20 mb-8">
+                <div className="w-[284px] h-[290px] absolute -top-8 -right-28 transform -rotate-45">
+                  <DecorEllips1 className="stroke-accent-6 opacity-10" />
+                </div>
+                <div className="w-[390px] h-[390px] absolute -bottom-32 left-10 ">
+                  <DecorEllips1 className="stroke-accent-6 opacity-10" />
+                </div>
+
+                <div className="relative">
+                  <h6 className="text-gray-500 font-bold text-3xl px-36 text-center leading-normal mb-10">
+                    SUbscribe to ger information, latest news and order
+                    interesting offer about Cobham
+                  </h6>
+
+                  <form className="flex justify-center">
+                    <fieldset className="relative mr-8">
+                      <span className="material-icons text-gray-500 absolute h-full w-16 flex items-center justify-center">
+                        mail_outline
+                      </span>
+                      <input
+                        type="text"
+                        className="appearance-none rounded-lg py-5 pl-14 bg-white w-96 focus:outline-none transition duration-200 border-2 border-transparent focus:border-accent-6"
+                        placeholder="Your Email"
+                      />
+                    </fieldset>
+                    <button className="rounded-lg text-white bg-gradient-to-b from-accent-2/90 to-accent-2 py-5 px-16">
+                      Subscribe
+                    </button>
+                  </form>
+                </div>
               </div>
             </div>
           </div>
