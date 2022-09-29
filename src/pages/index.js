@@ -200,9 +200,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto relative px-4">
           <div className="text-center flex flex-col">
             <div className="text-center flex flex-col mb-16">
-              <h3 className="uppercase text-lg mb-2 text-gray-500">
-                Top Selling
-              </h3>
+              <h3 className="text-lg mb-2 text-gray-500">Top Selling</h3>
               <h3 className="text-5xl text-gray-900 leading-snug font-serif">
                 Top Destinations
               </h3>
@@ -279,6 +277,136 @@ export default function Home() {
                       </span>
                       <span className="">28 Days Trip</span>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-28">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="flex">
+            <div className="w-6/12 pl-8 pr-20">
+              <div className="flex flex-col mb-16">
+                <h3 className="text-lg mb-2 text-gray-500">Easy and Fast</h3>
+                <h3 className="text-5xl text-gray-900 leading-snug font-serif mb-10">
+                  Book your next trip in 3 easy steps
+                </h3>
+                <ul className="flex flex-col gap-y-10 pr-10">
+                  <li className="flex items-center">
+                    <span className="bg-accent-1 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                      <span className="material-icons">navigation</span>
+                    </span>
+                    <div className="flex flex-col ml-4 leading-5">
+                      <h6 className="font-bold mb-1 text-gray-500">
+                        Choose Destination
+                      </h6>
+                      <p className="font-[400] text-gray-500">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Doloremque, dolor?
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="bg-accent-2 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                      <span className="material-icons">credit_card</span>
+                    </span>
+                    <div className="flex flex-col ml-4 leading-5">
+                      <h6 className="font-bold mb-1 text-gray-500">
+                        Make Payment
+                      </h6>
+                      <p className="font-[400] text-gray-500">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Doloremque, dolor?
+                      </p>
+                    </div>
+                  </li>
+                  <li className="flex items-center">
+                    <span className="bg-accent-6 rounded-xl flex flex-none text-white items-center justify-center w-12 h-12">
+                      <span className="material-icons">plane</span>
+                    </span>
+                    <div className="flex flex-col ml-4 leading-5">
+                      <h6 className="font-bold mb-1 text-gray-500">
+                        Reach Airport on Selected Date
+                      </h6>
+                      <p className="font-[400] text-gray-500">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing
+                        elit. Doloremque, dolor?
+                      </p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div className="w-5/12 flex items-center justify-center">
+              <div className="w-[370px] relative">
+                <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 -top-10 -right-10 bg-accent-7/40"></div>
+
+                <div className="absolute bottom-16 right-0 transform translate-x-1/2 bg-white rounded-2xl w-[263px] z-30 shadow-great p-4 pr-7">
+                  <div className="flex">
+                    <span className="w-12 h-12 overflow-hidden rounded-full flex-none mr-3">
+                      <Image
+                        layout="responsive"
+                        width="100%"
+                        height="100%"
+                        src="/images/destinations-5.jpg"
+                      />
+                    </span>
+                    <div className="flex flex-col w-full mb-2">
+                      <span className="text-sm text-gray-500">Ongoing</span>
+                      <h6 className="text-gray-900 mb-2">Trip to Rome</h6>
+                      <span className="text-xs mb-1">
+                        <span className=" text-accent-6">40%</span>
+                        <span className=" text-gray-900">completed</span>
+                      </span>
+                      <span className="w-full bg-gray-200 h-1 rounded-full overflow-hidden flex">
+                        <span className="bg-accent-6 rounded-full w-20 h-full"></span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="bg-white rounded-2xl w-full h-full relative z-20 shadow-great pt-4 pb-5">
+                  <div className="mx-4 rounded-3xl h-40 relative overflow-hidden mb-6">
+                    <Image
+                      layout="fill"
+                      className="object-cover"
+                      src="/images/destinations-4.jpg"
+                    />
+                  </div>
+                  <h6 className="font-bold text-lg text-gray-900 px-4 mb-2">
+                    Trip To Greece
+                  </h6>
+                  <div className="flex text-gray-500 px-4 mb-4">
+                    <h6>14-29 June</h6>
+                    <span className="mx02">|</span>
+                    <h6>by Robin Joseph</h6>
+                  </div>
+                  <div className="flex gap-x-3 mx-4 mb-6">
+                    <span className="bg-gray-100 text-gray-500 rounded-full flex items-center justify-center w-9 h-9">
+                      <span className="text-base material-icons">spa</span>
+                    </span>
+                    <span className="bg-gray-100 text-gray-500 rounded-full flex items-center justify-center w-9 h-9">
+                      <span className="text-base material-icons">map</span>
+                    </span>
+                    <span className="bg-gray-100 text-gray-500 rounded-full flex items-center justify-center w-9 h-9">
+                      <span className="text-base material-icons">near_me</span>
+                    </span>
+                  </div>
+
+                  <div className="flex items-center justify-between mx-4">
+                    <span className="material-icons text-gray-500 mr-3 text-xl">
+                      apartment
+                    </span>
+                    <span className="mr-auto text-gray-500">
+                      24 people going
+                    </span>
+                    <span className="text-xl material-icons text-accent-6">
+                      favorite_border
+                    </span>
                   </div>
                 </div>
               </div>
