@@ -17,3 +17,10 @@ https://developers.google.com/fonts/docs/material_icons
 
 //Image Next js
 https://nextjs.org/docs/api-reference/next/image#required-props
+
+// Swiper
+https://swiperjs.com/react
+hapus tanda ^ di file package.json agar tidak update ke versi baru jika diinstall
+"dependencies": {
+    "swiper": "8.4.2"
+  },

@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Header from "components/Header";
+import Testimonials from "components/Testimonials";
 import DecorIntersect from "images/decor-intersect-1.svg";
 import DecorTextUnderline from "images/text-decor-hero.svg";
 import DecorPlus1 from "images/decor-plus-style-1.svg";
@@ -414,6 +415,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Testimonials />
     </div>
   );
 }
