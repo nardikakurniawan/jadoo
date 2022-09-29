@@ -6,6 +6,7 @@ import Header from "components/Header";
 import DecorIntersect from "images/decor-intersect-1.svg";
 import DecorTextUnderline from "images/text-decor-hero.svg";
 import DecorPlus1 from "images/decor-plus-style-1.svg";
+import DecorSwirl1 from "images/decor-swirl-style-1.svg";
 
 export default function Home() {
   return (
@@ -189,6 +190,97 @@ export default function Home() {
                 <h5 className="px-8 mb-8">
                   We deliver outsourced aviation services for military customers
                 </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-28">
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="text-center flex flex-col">
+            <div className="text-center flex flex-col mb-16">
+              <h3 className="uppercase text-lg mb-2 text-gray-500">
+                Top Selling
+              </h3>
+              <h3 className="text-5xl text-gray-900 leading-snug font-serif">
+                Top Destinations
+              </h3>
+            </div>
+            <div className="flex relative pr-10">
+              <div className="absolute w-[96px] h-[252px] bottom-10 right-0">
+                <DecorSwirl1 className="stroke-gray-500" />
+              </div>
+              <div className="w-4/12 px-6 relative z-20">
+                <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
+                  <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
+                    <Image
+                      layout="fill"
+                      className="object-cover"
+                      src="/images/destinations-2.jpg"
+                    />
+                  </div>
+                  <div className="rounded-tr-3xl rounded-tl-3xl text-gray-500">
+                    <div className="pt-7 px-5 flex justify-between">
+                      <h6 className="text-lg">London, UK</h6>
+                      <h6 className="text-lg">$4.2k</h6>
+                    </div>
+                    <div className="pt-4 px-5 flex items-center">
+                      <span className="material-icons mr-2 text-black">
+                        near_me
+                      </span>
+                      <span className="">12 Days Trip</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-4/12 px-6 relative z-20">
+                <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
+                  <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
+                    <Image
+                      layout="fill"
+                      className="object-cover"
+                      src="/images/destinations-1.jpg"
+                    />
+                  </div>
+                  <div className="rounded-tr-3xl rounded-tl-3xl text-gray-500">
+                    <div className="pt-7 px-5 flex justify-between">
+                      <h6 className="text-lg">Rome, Italy</h6>
+                      <h6 className="text-lg">$5,42k</h6>
+                    </div>
+                    <div className="pt-4 px-5 flex items-center">
+                      <span className="material-icons mr-2 text-black">
+                        near_me
+                      </span>
+                      <span className="">10 Days Trip</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="w-4/12 px-6 relative z-20">
+                <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
+                  <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
+                    <Image
+                      layout="fill"
+                      className="object-cover"
+                      src="/images/destinations-3.jpg"
+                    />
+                  </div>
+                  <div className="rounded-tr-3xl rounded-tl-3xl text-gray-500">
+                    <div className="pt-7 px-5 flex justify-between">
+                      <h6 className="text-lg">Full Europe</h6>
+                      <h6 className="text-lg">$15k</h6>
+                    </div>
+                    <div className="pt-4 px-5 flex items-center">
+                      <span className="material-icons mr-2 text-black">
+                        near_me
+                      </span>
+                      <span className="">28 Days Trip</span>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
