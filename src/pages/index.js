@@ -71,6 +71,7 @@ export default function Home() {
             <div className="w-[783px] h-[764px] pt-24 relative">
               <div className="absolute w-[137px] h-[95px] top-44 left-40 z-30">
                 <Image
+                  alt="plane"
                   layout="responsive"
                   width="100%"
                   height="100%"
@@ -79,6 +80,7 @@ export default function Home() {
               </div>
               <div className="absolute w-[137px] h-[95px] top-56 right-8 z-10">
                 <Image
+                  alt="plane"
                   layout="responsive"
                   width="100%"
                   height="100%"
@@ -87,6 +89,7 @@ export default function Home() {
               </div>
               <div className="relative z-20 transform -translate-x-16">
                 <Image
+                  alt="hero traveller"
                   priority
                   layout="responsive"
                   width="100%"
@@ -119,6 +122,7 @@ export default function Home() {
                 <div className="relative mb-6 inline-flex h-28">
                   <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-11">
                     <Image
+                      alt="illustration radar"
                       layout="fixed"
                       width={60}
                       height={60}
@@ -140,6 +144,7 @@ export default function Home() {
                 <div className="relative mb-6 inline-flex h-28">
                   <div className="z-10 absolute transform -translate-x-1/2">
                     <Image
+                      alt="plane"
                       layout="fixed"
                       width={146}
                       height={133}
@@ -161,6 +166,7 @@ export default function Home() {
                 <div className="relative mb-6 inline-flex h-28">
                   <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-8 top-2">
                     <Image
+                      alt="illustration mic"
                       layout="fixed"
                       width={40}
                       height={69}
@@ -183,6 +189,7 @@ export default function Home() {
                 <div className="relative mb-6 inline-flex h-28">
                   <div className="z-10 absolute transform translate-y-1/2 -translate-x-1/2 -right-10 top-3">
                     <Image
+                      alt="illustration gear"
                       layout="fixed"
                       width={50}
                       height={50}
@@ -218,6 +225,7 @@ export default function Home() {
                 <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
                   <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
                     <Image
+                      alt="destination 2"
                       layout="fill"
                       className="object-cover"
                       src="/images/destinations-2.jpg"
@@ -242,6 +250,7 @@ export default function Home() {
                 <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
                   <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
                     <Image
+                      alt="destination 1"
                       layout="fill"
                       className="object-cover"
                       src="/images/destinations-1.jpg"
@@ -266,6 +275,7 @@ export default function Home() {
                 <div className="rounded-3xl pb-10 shadow-great bg-white flex flex-col">
                   <div className="rounded-tr-3xl rounded-tl-3xl overflow-hidden relative h-96">
                     <Image
+                      alt="destination 3"
                       layout="fill"
                       className="object-cover"
                       src="/images/destinations-3.jpg"
@@ -354,6 +364,7 @@ export default function Home() {
                   <div className="flex">
                     <span className="w-12 h-12 overflow-hidden rounded-full flex-none mr-3">
                       <Image
+                        alt="destination 5"
                         layout="responsive"
                         width="100%"
                         height="100%"
@@ -377,6 +388,7 @@ export default function Home() {
                 <div className="bg-white rounded-2xl w-full h-full relative z-20 shadow-great pt-4 pb-5">
                   <div className="mx-4 rounded-3xl h-40 relative overflow-hidden mb-6">
                     <Image
+                      alt="destinations 4"
                       layout="fill"
                       className="object-cover"
                       src="/images/destinations-4.jpg"
@@ -428,6 +440,7 @@ export default function Home() {
             <div className="w-1/5 px-4">
               <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
                 <Image
+                  alt="client 1"
                   className="object-none"
                   layout="fill"
                   src="/images/client-1.png"
@@ -437,6 +450,7 @@ export default function Home() {
             <div className="w-1/5 px-4">
               <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
                 <Image
+                  alt="client 2"
                   className="object-none"
                   layout="fill"
                   src="/images/client-2.png"
@@ -446,6 +460,7 @@ export default function Home() {
             <div className="w-1/5 px-4">
               <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
                 <Image
+                  alt="client 3"
                   className="object-none"
                   layout="fill"
                   src="/images/client-3.png"
@@ -455,6 +470,7 @@ export default function Home() {
             <div className="w-1/5 px-4">
               <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
                 <Image
+                  alt="client 4"
                   className="object-none"
                   layout="fill"
                   src="/images/client-4.png"
@@ -464,6 +480,7 @@ export default function Home() {
             <div className="w-1/5 px-4">
               <div className="h-20 px-4 py-4 relative grayscale hover:grayscale-0 bg-white transform hover:-translate-y-1 hover:shadow-great rounded-2xl transition-all duration-300">
                 <Image
+                  alt="client 5"
                   className="object-none"
                   layout="fill"
                   src="/images/client-5.png"
@@ -660,6 +677,7 @@ export default function Home() {
                     rel="noreferrer noopener"
                   >
                     <Image
+                      alt="google play"
                       className="object-none"
                       layout="fill"
                       src="/images/google-play.png"
@@ -674,6 +692,7 @@ export default function Home() {
                     rel="noreferrer noopener"
                   >
                     <Image
+                      alt="app store"
                       className="object-none"
                       layout="fill"
                       src="/images/app-store.png"
