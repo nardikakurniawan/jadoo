@@ -9,6 +9,9 @@ import DecorTextUnderline from "images/text-decor-hero.svg";
 import DecorPlus1 from "images/decor-plus-style-1.svg";
 import DecorSwirl1 from "images/decor-swirl-style-1.svg";
 import DecorEllips1 from "images/decor-ellips-style-1.svg";
+import Facebook from "images/facebook.svg";
+import Instagram from "images/instagram.svg";
+import Twitter from "images/twitter.svg";
 
 export default function Home() {
   return (
@@ -514,6 +517,174 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="pb-32 relative overflow-hidden">
+        <div className="w-60 h-60 rounded-full blur-3xl absolute z-10 -bottom-10 -right-10 bg-accent-6/20"></div>
+
+        <div className="max-w-7xl mx-auto relative px-4">
+          <div className="flex mb-12">
+            <div className="w-3/12 px-4">
+              <h6 className="text-5xl tracking-tight text-gray-900 mb-4">
+                Jadoo.
+              </h6>
+              <p className="text-sm text-gray-500 pr-8">
+                Book your trip in minute, get full Control for much longer.
+              </p>
+            </div>
+
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-900 mt-2 mb-4">
+                Company
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/about">
+                    <a>About</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/careers">
+                    <a>Careers</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/mobile">
+                    <a>Mobile</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-900 mt-2 mb-4">
+                Contact
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/faq">
+                    <a>Help/FAQ</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/press">
+                    <a>Press</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/affiliates">
+                    <a>Affilates</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="w-2/12 px-4">
+              <h6 className="text-xl tracking-tight text-gray-900 mt-2 mb-4">
+                More
+              </h6>
+              <ul className="text-lg text-gray-500 flex flex-col gap-y-2">
+                <li>
+                  <Link href="/airlinefees">
+                    <a>Airlinefees</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/airline">
+                    <a>Airline</a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/low-fare-tips">
+                    <a>Low fare tips</a>
+                  </Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="w-2/12 px-4">
+              <ul className="text-lg text-gray-500 flex gap-x-5">
+                <li>
+                  <a
+                    href="https://facebook.com"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Facebook className="fill-black group-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://instagram.com"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Instagram className="fill-black group-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com"
+                    className="w-10 h-10 bg-white group overflow-hidden relative shadow-lg flex items-center justify-center rounded-full"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <span className="group-hover:opacity-100 opacity-0 z-10 transform rotate-0 group-hover:rotate-180 transition-all duration-300 bg-gradient-social absolute inset-0"></span>
+                    <span className="relative z-20">
+                      <Twitter className="fill-black group-hover:fill-white transition-colors duration-300" />
+                    </span>
+                  </a>
+                </li>
+              </ul>
+
+              <h6 className="text-xl tracking-tight text-gray-500 mt-7 mb-3">
+                Discover our app
+              </h6>
+
+              <ul className="flex">
+                <li className="relative w-[137px] h-[35px]">
+                  <a
+                    href="https://google.com/"
+                    className="relative h-full w-full flex"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Image
+                      className="object-none"
+                      layout="fill"
+                      src="/images/google-play.png"
+                    />
+                  </a>
+                </li>
+                <li className="relative w-[137px] h-[35px]">
+                  <a
+                    href="https://apple.com/"
+                    className="relative h-full w-full flex"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                  >
+                    <Image
+                      className="object-none"
+                      layout="fill"
+                      src="/images/app-store.png"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="text-center text-sm text-gray-500">
+            All right reserved@jadoo.co
           </div>
         </div>
       </section>
