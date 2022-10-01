@@ -4,6 +4,8 @@ import Image from "next/image";
 
 import Header from "components/Header";
 import Testimonials from "components/Testimonials";
+import Modal from "components/Modal";
+
 import DecorIntersect from "images/decor-intersect-1.svg";
 import DecorTextUnderline from "images/text-decor-hero.svg";
 import DecorPlus1 from "images/decor-plus-style-1.svg";
@@ -69,19 +71,38 @@ export default function Home() {
               </p>
 
               <div className="flex">
-                <Link href="">
-                  <a className="mr-11 bg-accent-1 shadow-accent-1/10 shadow-[0_20px_35px] px-6 py-4 text-white rounded-xl">
-                    Find out more
+                <a
+                  href="#section-category"
+                  className="mr-11 bg-accent-1 shadow-accent-1/10 shadow-[0_20px_35px] px-6 py-4 text-white rounded-xl"
+                >
+                  Find out more
+                </a>
+
+                <Link href={`/?modal=1&id=play-demo`}>
+                  <a className="flex items-center">
+                    <span className="mr-6 bg-accent-2 text-white inline-flex items-center justify-center px-4 py-4 rounded-full shadow-accent-2/30 shadow-[0_15px_30px]">
+                      <span className="material-icons">play_arrow</span>
+                    </span>
+                    <span className="hidden lg:block text-gray-500">
+                      Play demo
+                    </span>
                   </a>
                 </Link>
-                <button className="flex items-center">
-                  <span className="mr-6 bg-accent-2 text-white inline-flex items-center justify-center px-4 py-4 rounded-full shadow-accent-2/30 shadow-[0_15px_30px]">
-                    <span className="material-icons">play_arrow</span>
-                  </span>
-                  <span className="hidden lg:block text-gray-500">
-                    Play demo
-                  </span>
-                </button>
+
+                <Modal id="play-demo" wrapperClassName="w-[700px]">
+                  <h3>Travel Indonesia</h3>
+                  <div className="aspect-video">
+                    <iframe
+                      width="100%"
+                      height="100%"
+                      src="https://www.youtube.com/embed/IwtNFzX0ni8"
+                      title="YouTube video player"
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </Modal>
               </div>
             </div>
 
@@ -119,7 +140,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-32">
+      <section className="mb-32 scroll-mt-10" id="section-category">
         <div className="max-w-7xl mx-auto relative px-4">
           <div className="absolute w-36 h-36 lg:-right-10 -top-10">
             <DecorPlus1 className="decor-plus-style-1" />
@@ -225,7 +246,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-28">
+      <section className="mb-28 scroll-mt-10" id="destination">
         <div className="max-w-7xl mx-auto relative px-4">
           <div className="text-center flex flex-col">
             <div className="text-center flex flex-col mb-16">
@@ -317,7 +338,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-28">
+      <section className="mb-28 scroll-mt-10" id="flights">
         <div className="max-w-7xl mx-auto relative px-4">
           <div className="flex flex-wrap">
             <div className="w-full lg:w-6/12 px-0 lg:pl-8 lg:pr-20">
@@ -510,7 +531,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mb-32">
+      <section className="mb-32 scroll-mt-10" id="bookings">
         <div className="max-w-full lg:max-w-7xl mx-auto relative px-4">
           <div className="absolute w-36 h-36 lg:-right-20 -bottom-10 -z-10 transform rotate-90 translate-y-2">
             <DecorPlus1 className="decor-plus-style-1" />

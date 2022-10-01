@@ -36,24 +36,24 @@ export default function Header() {
         >
           <ul className="flex items-center flex-col lg:flex-row gap-y-6 lg:gap-y-0">
             <li className="">
-              <Link href="/destination">
-                <a className="px-9 text-gray-800">Destinations</a>
-              </Link>
+              <a href="#destination" className="px-9 text-gray-800">
+                Destinations
+              </a>
             </li>
             <li className="">
-              <Link href="/hotels">
+              <Link href="#hotels">
                 <a className="px-9 text-gray-800">Hotels</a>
               </Link>
             </li>
             <li className="">
-              <Link href="/filghts">
-                <a className="px-9 text-gray-800">Flights</a>
-              </Link>
+              <a href="#flights" className="px-9 text-gray-800">
+                Flights
+              </a>
             </li>
             <li className="">
-              <Link href="/bookings">
-                <a className="px-9 text-gray-800">Bookings</a>
-              </Link>
+              <a href="#bookings" className="px-9 text-gray-800">
+                Bookings
+              </a>
             </li>
             <li className="">
               <Link href="/login">
